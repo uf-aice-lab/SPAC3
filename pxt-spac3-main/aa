@@ -1,0 +1,16 @@
+
+class myBlock {
+    block: Block
+    blockId : number
+    blockPos: Position
+    
+    constuctor(b:Block,id:number,pos:Position){
+        this.block = b
+        this.blockId= id
+        this.blockPos = pos
+    }
+}
+let a =  Block
+
+let ac = new myBlock()
+ac.block =blocks.blockWithData(GRASS, 0)

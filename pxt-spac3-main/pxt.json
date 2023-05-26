@@ -1,0 +1,25 @@
+{
+    "name": "spac3",
+    "description": "Sound and Music",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "spac3.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "src/test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.6.27",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj",
+    
+}
+
